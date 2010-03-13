@@ -1,0 +1,62 @@
+/**
+  Theme Name: Quiet Logger
+  Theme URI: http://www.mikeball.us/
+  Version: 1
+  Author: Mike Ball
+  Author URI: http://www.mikeball.us/
+  Licence: GPL
+*/
+
+* {margin:0; padding:0; font-weight:normal;}
+html {overflow-y: scroll;}
+body {font-size:62.5%; color:#444; font-family:'times new roman', times, serif; line-height:1.4em; text-align:center; padding:30px 0; border-top:5px solid #ddd;}
+p, ul {margin-bottom:1em; font-size:1.2em; line-height:1.3em;}
+  ul li, ol li {list-style-type:none;}
+blockquote, small, cite, time, header, article, footer {display:block;}
+  header {text-align:center;}
+a, a:visited {color:#000;}
+h2 {text-align:center; font-style:italic;}
+h3 {text-align:center; border-top:1px solid #ddd; padding-top:10px; font-style:italic; font-size:2em; line-height:1.2em; margin-bottom:15px;}
+
+/*forms*/
+label, input {display:block;}
+input, textarea {border:1px solid #ccc; margin:0 auto 10px auto; text-align:center; font-family:inherit; font-size:1.4em; padding:3px; }
+  input[type=hidden] {display:none;} 
+input:focus, textarea:focus {background:#eee;}
+ol.form-elements li {text-align:center;}
+  ol.form-elements li label {text-align:center; font-size:1.2em; margin-bottom:3px;}
+  ol.form-elements li input {width:280px;}
+  ol.form-elements li input.button {width:auto; padding:5px; cursor:pointer; background:#444; color:#eee; border:none;}
+
+#container {margin:0 auto; text-align:left; width:550px;}
+
+header#masthead {margin-bottom:20px; border-bottom:1px solid #ddd; padding-bottom:20px;}
+  h1 {font-size:4em; line-height:1.2em; text-align:center;}
+    h1 a {font-weight:normal; text-transform:uppercase; text-decoration:none;}
+nav ul.skip {position: absolute; left: -9999px; }  /*normally hidden but will appear when css disabled */
+article.post-wrap {border-bottom:1px solid #ddd; margin-bottom:20px; padding-bottom:10px;}
+header time.date-posted {text-transform:uppercase; font-size:1.4em; letter-spacing:.15em; color:#888; line-height:1.3em; margin-bottom:7px;}
+header h2.post-title {font-size:3em; line-height:1.2em; margin-bottom:7px;}
+  header h2.post-title a {text-decoration:none;}
+    header h2.post-title a:hover {text-decoration:underline;}
+section.post-excerpt p {font-size:1.6em; text-align:center;}
+
+article.post {margin-bottom:40px;}
+article.post header {border-bottom:1px solid #ddd; margin-bottom:20px;}
+  article.post header p {text-transform:uppercase; font-size:1.4em; margin-bottom:20px; color:#222; letter-spacing:.15em;}
+  section.content p {font-size:1.7em; text-align:justify; text-indent:2em;}
+    section.content p:first-child:first-line {font-variant:small-caps;}
+    
+ol.comment-list {margin-bottom:40px;}
+  ol.comment-list li {text-align:center;}
+    ol.comment-list li cite {font-style:italic; font-size:1.6em; margin-bottom:5px;}
+      ol.comment-list li span {display:none;}
+    ol.comment-list li div.comment-meta a {color:#888; display:block; text-transform:uppercase; text-decoration:none; font-size:1.2em; letter-spacing:.15em; margin-bottom:1em;}
+    ol.comment-list li p {font-size:1.4em; width:400px; margin:0 0 1.4em 80px; text-align:center;}
+
+div#respond {border-bottom:1px solid #ddd; padding-bottom:20px;}
+
+footer#site-footer {padding-top:20px;}
+  form.search-form input {width:300px; background:#efefef; font-size:1.8em; padding:5px; color:#555;}
+  
+
