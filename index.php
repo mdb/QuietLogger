@@ -14,7 +14,7 @@
 	  <?php endwhile; ?>
 </section>	
 <?php else: ?>
-<p><?php _e('Sorry, no posts matched your criteria.'); ?></p>
+<p class="alert"><?php _e('Sorry, no posts matched your criteria.'); ?></p>
 <?php endif; ?>
 <?php if (will_paginate()): ?>
 <nav>
