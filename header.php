@@ -3,9 +3,7 @@
 <head profile="http://gmpg.org/xfn/11">
 	<meta http-equiv="Content-Type" content="<?php bloginfo('html_type'); ?>; charset=<?php bloginfo('charset'); ?>" />
 	<title><?php if(is_home()) bloginfo('name'); else wp_title(''); ?></title>
-	<style type="text/css" media="screen">
-		@import url( <?php bloginfo('stylesheet_url'); ?> );
-	</style>
+	<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen" />
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
 	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/main.js"></script>	
 	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="<?php bloginfo('rss2_url'); ?>" />
