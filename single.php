@@ -22,6 +22,10 @@
     </small>
   </footer>
 </article>
+<nav class="post-navigator">
+	<?php previous_post_link('&laquo; %link') ?>
+	<?php next_post_link('%link &raquo;') ?>
+</nav>
 <?php comments_template(); endwhile; else: ?>
 <p>Sorry, no posts matched your criteria.</p>
 <?php endif; ?>
