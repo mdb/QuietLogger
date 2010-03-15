@@ -16,7 +16,7 @@ p, ul {margin-bottom:1em; font-size:1.2em; line-height:1.3em;}
 blockquote, small, cite, time, header, article, footer {display:block;}
   header {text-align:center;}
 a, a:visited {color:#000;}
-h2 {text-align:center; font-style:italic;}
+h2 {text-align:center; font-style:italic; color:#000;}
 h3 {text-align:center; border-top:1px solid #ddd; padding-top:20px; font-style:italic; font-size:2em; line-height:1.2em; margin-bottom:15px; color:#000;}
 
 /*forms*/
