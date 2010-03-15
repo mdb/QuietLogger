@@ -17,7 +17,7 @@ blockquote, small, cite, time, header, article, footer {display:block;}
   header {text-align:center;}
 a, a:visited {color:#000;}
 h2 {text-align:center; font-style:italic;}
-h3 {text-align:center; border-top:1px solid #ddd; padding-top:10px; font-style:italic; font-size:2em; line-height:1.2em; margin-bottom:15px;}
+h3 {text-align:center; border-top:1px solid #ddd; padding-top:20px; font-style:italic; font-size:2em; line-height:1.2em; margin-bottom:15px; color:#000;}
 
 /*forms*/
 label, input {display:block;}
@@ -47,10 +47,12 @@ article.post header {border-bottom:1px solid #ddd; margin-bottom:20px;}
   article.post header p {text-transform:uppercase; font-size:1.4em; margin-bottom:20px; color:#222; letter-spacing:.15em;}
   section.content p {font-size:1.7em; text-align:justify; text-indent:2em;}
     section.content p:first-child:first-line {font-variant:small-caps;}
+    section.content  {margin-bottom:100px;}
+  section.content h3 {background:url('images/rule.png') no-repeat top center; border-top:none; margin-top:25px;}
     
 ol.comment-list {margin-bottom:40px;}
-  ol.comment-list li {text-align:center;}
-    ol.comment-list li cite {font-style:italic; font-size:1.6em; margin-bottom:5px;}
+  ol.comment-list li {text-align:center; margin-bottom:20px;}
+    ol.comment-list li cite {font-style:italic; font-size:1.6em; margin-bottom:5px; background:url('images/rule.png') no-repeat top center; padding-top:20px;}
       ol.comment-list li cite a {color:#888;}
       ol.comment-list li span {display:none;}
     ol.comment-list li div.comment-meta a {color:#888; background:url('images/quote.png') no-repeat bottom center; display:block; text-transform:uppercase; text-decoration:none; font-size:1.2em; letter-spacing:.15em; height:45px; margin-bottom:1em;}
