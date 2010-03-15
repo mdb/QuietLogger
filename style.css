@@ -51,8 +51,9 @@ article.post header {border-bottom:1px solid #ddd; margin-bottom:20px;}
 ol.comment-list {margin-bottom:40px;}
   ol.comment-list li {text-align:center;}
     ol.comment-list li cite {font-style:italic; font-size:1.6em; margin-bottom:5px;}
+      ol.comment-list li cite a {color:#888;}
       ol.comment-list li span {display:none;}
-    ol.comment-list li div.comment-meta a {color:#888; display:block; text-transform:uppercase; text-decoration:none; font-size:1.2em; letter-spacing:.15em; margin-bottom:1em;}
+    ol.comment-list li div.comment-meta a {color:#888; background:url('images/quote.png') no-repeat bottom center; display:block; text-transform:uppercase; text-decoration:none; font-size:1.2em; letter-spacing:.15em; height:45px; margin-bottom:1em;}
     ol.comment-list li p {font-size:1.4em; width:400px; margin:0 0 1.4em 80px; text-align:center;}
 
 div#respond {border-bottom:1px solid #ddd; padding-bottom:20px;}

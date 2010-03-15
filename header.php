@@ -21,9 +21,7 @@
 			<h2><?php bloginfo('name'); ?></h2>
 			<nav role="navigation">
 		    <ul class="skip">
-		      <li><a href="#nav">Skip to navigation</a></li>
-		      <li><a href="#primaryContent">Skip to main content</a></li>
-		      <li><a href="#secondaryContent">Skip to secondary content</a></li>
+		      <li><a href="#primary-content">Skip to main content</a></li>
 		      <li><a href="#footer">Skip to footer</a></li>
 		    </ul>
 			</nav>
