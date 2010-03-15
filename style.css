@@ -49,6 +49,9 @@ article.post header {border-bottom:1px solid #ddd; margin-bottom:20px;}
     section.content p:first-child:first-line {font-variant:small-caps;}
     section.content  {margin-bottom:100px;}
   section.content h3 {background:url('images/rule.png') no-repeat top center; border-top:none; margin-top:25px;}
+  footer.post-meta {text-align:center;}
+    footer.post-meta small {font-size:1.4em; line-height:1.4em; font-style:italic; color:#666;}
+      footer.post-meta small a, footer.post-meta small a:visited {color:#666;} 
     
 ol.comment-list {margin-bottom:40px;}
   ol.comment-list li {text-align:center; margin-bottom:20px;}

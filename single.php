@@ -15,12 +15,11 @@
 		<?php the_content(); ?>
 	</section>
   <footer class="post-meta">
-		<dl>
-			<dt>Categories</dt>
-			<dd><?php the_category(', '); ?></dd>
-			<dt>Tags</dt>
-			<dd><?php the_tags(', '); ?></dd>
-		</dl>
+		<small>Posted in <?php the_category(', '); ?>
+		<?php if (has_tag()) { ?>
+		and tagged <?php the_tags(' '); ?>
+		<?php } ?>
+		</small>
 	</footer>
 </article>
 <?php comments_template(); endwhile; else: ?>
