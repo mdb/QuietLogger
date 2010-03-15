@@ -1,18 +1,18 @@
 <?php get_header(); ?>
 <?php if (have_posts()): ?>
 <section id="posts">
-	<?php while (have_posts()) : the_post(); ?>
-		<article class="post-wrap" id="post-<?php the_ID(); ?>">
-			<header>
-		  	<time class="date-posted"><?php the_date(); ?></time>
-				<h2 class="post-title"><a href="<?php the_permalink() ?>" rel="bookmark"><?php the_title(); ?></a></h2>
-			</header>
-			<section class="post-excerpt">
-				<?php the_excerpt(); ?>
-			</section>
-	   </article>
-	  <?php endwhile; ?>
-</section>	
+  <?php while (have_posts()) : the_post(); ?>
+    <article class="post-wrap" id="post-<?php the_ID(); ?>">
+      <header>
+        <time class="date-posted"><?php the_date(); ?></time>
+        <h2 class="post-title"><a href="<?php the_permalink() ?>" rel="bookmark"><?php the_title(); ?></a></h2>
+      </header>
+      <section class="post-excerpt">
+        <?php the_excerpt(); ?>
+      </section>
+     </article>
+    <?php endwhile; ?>
+</section>  
 <?php else: ?>
 <p class="alert"><?php _e('Sorry, no posts matched your criteria.'); ?></p>
 <?php endif; ?>
