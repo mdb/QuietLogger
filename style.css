@@ -45,7 +45,7 @@ section.post-excerpt p {font-size:1.6em; text-align:center;}
 article.post {margin-bottom:40px;}
 article.post header {border-bottom:1px solid #ddd; margin-bottom:20px;}
   article.post header p {text-transform:uppercase; font-size:1.4em; margin-bottom:20px; color:#222; letter-spacing:.15em;}
-  section.content  {margin-bottom:100px;}
+  section.content  {margin-bottom:75px;}
     section.content p {font-size:1.7em; text-align:justify; text-indent:2em;}
       section.content p:first-child:first-line {font-variant:small-caps;}
     section.content ul {font-size:1.7em;}
@@ -54,6 +54,14 @@ article.post header {border-bottom:1px solid #ddd; margin-bottom:20px;}
   footer.post-meta {text-align:center;}
     footer.post-meta small {font-size:1.4em; line-height:1.4em; font-style:italic; color:#666;}
       footer.post-meta small a, footer.post-meta small a:visited {color:#666;} 
+  nav.post-navigator {overflow:hidden; border-top:1px solid #ddd; padding:10px;}
+    nav.post-navigator ul {}
+      nav.post-navigator ul li {font-size:1em;}
+      nav.post-navigator ul li a {color:#666;}
+        nav.post-navigator ul li a:hover {color:#333;}
+    nav.post-navigator ul li.prev {float:left;}
+    nav.post-navigator ul li.next {float:right;}
+  
     
 ol.comment-list {margin-bottom:40px;}
   ol.comment-list li {text-align:center; margin-bottom:20px;}
