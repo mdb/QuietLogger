@@ -50,8 +50,8 @@ article.post header {border-bottom:1px solid #ddd; margin-bottom:20px;}
       section.content p:first-child:first-line {font-variant:small-caps;}
     section.content ul {font-size:1.7em;}
       section.content ul li {margin-bottom:5px; padding-left:1em; margin-left:1em; background:url('images/bullet.png') no-repeat 0 7px;}
-    section.content aside {background:url('images/quote.png') no-repeat 270px 6px; margin:2em 0; overflow:hidden;}
-    section.content blockquote {font-size:1.7em; line-height:1.3em; border-left:5px solid #bbb; margin-left:2em; padding-left:1em; color:#222;}
+    section.content aside {background:url('images/quote.png') no-repeat 270px 6px; margin-top:2em; overflow:hidden;}
+    section.content blockquote {font-size:1.7em; line-height:1.3em; border-left:5px solid #bbb; margin:0 0 2em 2em; padding-left:1em; color:#222;}
     section.content h3 {background:url('images/rule.png') no-repeat top center; border-top:none; margin-top:25px;}
   footer.post-meta {text-align:center;}
     footer.post-meta small {font-size:1.4em; line-height:1.4em; font-style:italic; color:#666;}
