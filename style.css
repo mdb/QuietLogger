@@ -36,7 +36,7 @@ ol.form-elements li {text-align:center;}
 header#masthead {margin-bottom:20px; border-bottom:1px solid #ddd; padding-bottom:20px;}
   h1 {font-size:4em; line-height:1.2em; text-align:center; letter-spacing:15px; margin-bottom:7px;}
     h1 a {font-weight:normal; text-transform:uppercase; text-decoration:none;}
-  header#masthead h2 {font-style:normal; font-variant:small-caps; font-size:1.8em; color:#555;}  
+  header#masthead h2 {font-style:normal; font-variant:small-caps; font-size:1.8em; color:#555; letter-spacing:.15em;}  
 nav ul.skip {position: absolute; left: -9999px; }  /*normally hidden but will appear when css disabled */
 article.post-wrap {border-bottom:1px solid #ddd; margin-bottom:20px; padding-bottom:10px;}
 header time.date-posted {text-transform:uppercase; font-size:1.4em; letter-spacing:.15em; color:#888; line-height:1.3em; margin-bottom:7px;}
@@ -48,7 +48,7 @@ section.post-excerpt p {font-size:1.6em; text-align:center;}
 /*blog post*/
 article.post {margin-bottom:40px;}
   article.post header {border-bottom:1px solid #ddd; margin-bottom:20px;}
-    article.post header p {text-transform:uppercase; font-size:1.4em; margin-bottom:20px; color:#222; letter-spacing:.15em;}
+    article.post header p {text-transform:uppercase; font-size:1.4em; margin-bottom:20px; color:#222; color:#444; letter-spacing:.15em;}
     section.content  {margin-bottom:75px;}
       section.content p {font-size:1.7em; text-align:justify; text-indent:2em;}
         section.content p:first-child:first-line {font-variant:small-caps;}
