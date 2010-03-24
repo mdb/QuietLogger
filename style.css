@@ -59,7 +59,7 @@ article.post {margin-bottom:40px;}
     footer.post-meta {text-align:center;}
       footer.post-meta small {font-size:1.4em; line-height:1.4em; font-style:italic; color:#666;}
         footer.post-meta small a, footer.post-meta small a:visited {color:#666;} 
-    nav.post-navigator {overflow:hidden; padding:10px; background:#f9f9f9; border-top:1px solid #ddd;}
+    nav.post-navigator {overflow:hidden; padding:10px; border-top:1px solid #ddd;}
       nav.post-navigator ul {text-align:center; margin:0 auto; overflow:hidden;}
         nav.post-navigator ul li {font-size:1em;}
         nav.post-navigator ul li a {color:#666;}
