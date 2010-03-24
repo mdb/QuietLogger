@@ -16,7 +16,7 @@
   <div id="container">
     <header id="masthead">
       <h1><a href="/"><?php bloginfo('name'); ?></a></h1>
-      <h2><?php bloginfo('name'); ?></h2>
+      <h2><?php bloginfo('description'); ?></h2>
       <nav role="navigation">
         <ul class="skip">
           <li><a href="#primary-content">Skip to main content</a></li>
