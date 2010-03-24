@@ -81,6 +81,6 @@ div#respond {background:#f9f9f9; border-bottom:1px solid #ddd; padding-bottom:20
 
 /*global footer*/
 footer#site-footer {padding-top:20px;}
-  form.search-form input {width:300px; background:#efefef; font-size:1.8em; padding:5px; color:#555;}
+  form.search-form input {width:300px; background:#efefef url('images/magnifying-glass.png') no-repeat 5px 8px; font-size:1.8em; padding:5px 5px 5px 10px; color:#555;}
   
 
