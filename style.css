@@ -14,7 +14,7 @@ body {font-size:62.5%; color:#444; font-family:Baskerville, Times, "Times New Ro
 p, ul {margin-bottom:1em; font-size:1.2em; line-height:1.3em;}
   p.alert {font-size:1.8em; text-align:center;}
   ul li, ol li {list-style-type:none;}
-blockquote, small, cite, time, header, article, footer, aside {display:block;}
+blockquote, small, cite, time, header, article, footer, aside, nav {display:block;}
   header {text-align:center;}
 a, a:visited {color:#000;}
 h2 {text-align:center; font-style:italic; color:#000;}
@@ -59,8 +59,8 @@ article.post {margin-bottom:40px;}
     footer.post-meta {text-align:center;}
       footer.post-meta small {font-size:1.4em; line-height:1.4em; font-style:italic; color:#666;}
         footer.post-meta small a, footer.post-meta small a:visited {color:#666;} 
-    nav.post-navigator {overflow:hidden; border-top:1px solid #ddd; padding:10px;}
-      nav.post-navigator ul {}
+    nav.post-navigator {overflow:hidden; padding:10px; background:#f9f9f9; border-top:1px solid #ddd;}
+      nav.post-navigator ul {text-align:center; margin:0 auto; overflow:hidden;}
         nav.post-navigator ul li {font-size:1em;}
         nav.post-navigator ul li a {color:#666;}
           nav.post-navigator ul li a:hover {color:#333;}
@@ -76,7 +76,7 @@ ol.comment-list {margin-bottom:40px;}
     ol.comment-list li div.comment-meta a {color:#888; background:url('images/quote.png') no-repeat bottom center; display:block; text-transform:uppercase; text-decoration:none; font-size:1.2em; letter-spacing:.15em; height:45px; margin-bottom:1em;}
     ol.comment-list li p {font-size:1.4em; width:400px; margin:0 0 1.4em 80px; text-align:center;}
 
-div#respond {border-bottom:1px solid #ddd; padding-bottom:20px;}
+div#respond {background:#f9f9f9; border-bottom:1px solid #ddd; padding-bottom:20px;}
 
 /*global footer*/
 footer#site-footer {padding-top:20px;}
