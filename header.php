@@ -1,3 +1,9 @@
+<?php
+/**
+ * @package WordPress
+ * @subpackage Quiet Logger
+ */
+?>
 <!DOCTYPE HTML>
 <html <?php language_attributes(); ?>>
 <head profile="http://gmpg.org/xfn/11">

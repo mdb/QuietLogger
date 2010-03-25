@@ -1,7 +1,7 @@
 <?php
 /**
  * @package WordPress
- * @subpackage Journal
+ * @subpackage Quiet Logger
  */
 
 // Do not delete these lines

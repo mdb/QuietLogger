@@ -1,4 +1,10 @@
-<?php get_header(); ?>
+<?php
+/**
+ * @package WordPress
+ * @subpackage Quiet Logger
+ */
+
+get_header(); ?>
 <?php if (have_posts()): ?>
 <section id="posts">
   <?php while (have_posts()) : the_post(); ?>

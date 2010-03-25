@@ -1,10 +1,12 @@
 <?php
-  /*
-  *@desc A single blog post
-  */
-  get_header();
-  if (have_posts()) : while (have_posts()) : the_post();
-  ?>
+/**
+ * @package WordPress
+ * @subpackage Quiet Logger
+ */
+
+get_header();
+if (have_posts()) : while (have_posts()) : the_post();
+?>
 <article class="post" id="post-<?php the_ID(); ?>">
   <header>
     <time class="date-posted"><?php the_date(); ?></time>
