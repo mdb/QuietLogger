@@ -60,11 +60,13 @@ section.content  {margin-bottom:30px;}
 
 /*pages*/
 header.page-header {border-bottom:1px solid #ddd; margin-bottom:30px; padding:20px 0;}
-section.page-content {border-bottom:1px solid #ddd; padding-bottom:30px;}
+section.page-content {clear:left; border-bottom:1px solid #ddd; overflow:hidden; padding-bottom:30px;}
+section.content ul.archives {width:550px; float:left;}
+  section.content ul.archives li {width:240px; float:left; }
 
 /*posts*/
 article.post {margin-bottom:40px;}
-  article.post header {border-bottom:1px solid #ddd; margin-bottom:20px; padding-top:10px;}
+  article.post header {border-bottom:1px solid #ddd; margin-bottom:20px;}
     article.post header p {text-transform:uppercase; font-size:1.4em; margin-bottom:30px; color:#222; color:#444; letter-spacing:.15em;}
     footer.post-meta {text-align:center;}
       footer.post-meta small {font-size:1.4em; line-height:1.4em; font-style:italic; color:#666;}
