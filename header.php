@@ -21,7 +21,7 @@
 <body>
   <div id="container">
     <header id="masthead">
-      <h1><a href="<?php bloginfo('wpurl'); ?>"><?php bloginfo('name'); ?></a></h1>
+      <h1><a title="Home" href="<?php bloginfo('wpurl'); ?>"><?php bloginfo('name'); ?></a></h1>
       <h2><?php bloginfo('description'); ?></h2>
       <nav role="navigation">
         <ul class="skip">

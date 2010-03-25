@@ -82,6 +82,13 @@ div#respond {background:#f9f9f9; border-bottom:1px solid #ddd; padding-bottom:30
 
 /*global footer*/
 footer#site-footer {padding-top:20px;}
+  form.search-form {margin-bottom:40px;}
   form.search-form input {width:300px; background:#efefef url('images/magnifying-glass.png') no-repeat 5px 8px; font-size:1.8em; padding:5px 5px 5px 10px; color:#555;}
-  
+  footer#site-footer nav {display:table; margin:0 auto;}
+  ul.global-nav {/*min-width:550px;*/}
+  ul.global-nav li {display:inline; padding-left:10px;}
+    ul.global-nav li:after {content:'/';}
+      ul.global-nav li a { margin-right:10px; font-size:1.4em; text-decoration:none;}
+        ul.global-nav li a:hover {text-decoration:underline;}
+        ul.global-nav li.current_page_item a {color:#888;}
 
