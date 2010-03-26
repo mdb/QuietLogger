@@ -6,7 +6,7 @@
 ?>
 <!DOCTYPE HTML>
 <html <?php language_attributes(); ?>>
-<head profile="http://gmpg.org/xfn/11">
+<head>
   <meta http-equiv="Content-Type" content="<?php bloginfo('html_type'); ?>; charset=<?php bloginfo('charset'); ?>" />
   <title><?php if(is_home()) bloginfo('name'); else wp_title(''); ?></title>
   <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen" />
