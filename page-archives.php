@@ -17,7 +17,7 @@ if (have_posts()) : while (have_posts()) : the_post();
 	<ul class="archives">
 		<?php $recentPosts = new WP_Query("showposts=20"); while($recentPosts->have_posts()) : $recentPosts->the_post();?>
 		<li><a href="<?php the_permalink() ?>" rel="bookmark"><?php the_title(); ?></a><br />
-    <em>Posted <?php the_time('F jS, Y') ?></em>
+    <time class="date-posted" datetime="<?php the_time('c'); ?>">Posted <?php the_date(); ?></time>
     </li>
 		<?php endwhile; ?>
 	</ul>

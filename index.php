@@ -10,7 +10,7 @@ get_header(); ?>
   <?php while (have_posts()) : the_post(); ?>
     <article class="post-wrap" id="post-<?php the_ID(); ?>">
       <header>
-        <time class="date-posted"><?php the_date(); ?></time>
+        <time class="date-posted" datetime="<?php the_time('c'); ?>"><?php the_date(); ?></time>
         <h2 class="post-title"><a href="<?php the_permalink() ?>" rel="bookmark"><?php the_title(); ?></a></h2>
       </header>
       <section class="post-excerpt">
