@@ -33,9 +33,13 @@ The theme ships with an archives template page.
 Notes
 ******************************************
 
-Quiet Logger is designed for modern browsers that support HTML5 and CSS3.
+Quiet Logger is designed for modern browsers that support HTML5. 
+
+Remy Sharp's HTML5 Shiv provides HTML5 support to versions of Internet Explorer prior
+to IE 9. Read more on Google Code:
+http://code.google.com/p/html5shiv/
 
 Baskerville is its primary typeface. For systems on which Baskerville is not installed,
 the typography will render as Times, Times New Roman, or a generic serif font. 
 
-Quiet Logger does not support widgets
+Quiet Logger does not support widgets.
