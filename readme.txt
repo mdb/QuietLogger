@@ -1,4 +1,4 @@
-QuietLogger is a minimal Wordpress theme type set in Baskerville and coded with HTML5.
+Quiet Logger is a minimal Wordpress theme type set in Baskerville and coded with HTML5.
 
 
 **********************
@@ -38,4 +38,4 @@ Quiet Logger is designed for modern browsers that support HTML5 and CSS3.
 Baskerville is its primary typeface. For systems on which Baskerville is not installed,
 the typography will render as Times, Times New Roman, or a generic serif font. 
 
-Quiet Logger does not support widgets.
+Quiet Logger does not support widgets
