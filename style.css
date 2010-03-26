@@ -38,7 +38,7 @@ ol.form-elements li {text-align:center;}
 header#masthead {margin-bottom:30px; border-bottom:1px solid #ddd; padding-bottom:20px;}
   h1 {font-size:4em; line-height:1.2em; text-align:center; letter-spacing:15px; margin-bottom:7px;}
     h1 a {font-weight:normal; text-transform:uppercase; text-decoration:none;}
-  header#masthead h2 {font-style:normal; font-variant:small-caps; font-size:1.8em; color:#555; letter-spacing:.15em;}  
+  header#masthead h2 {font-style:normal; font-variant:small-caps; font-size:1.8em; color:#555; letter-spacing:.02em;}  
 nav ul.skip {position: absolute; left: -9999px; } /*normally hidden but will appear when css disabled */
 article.post-wrap {border-bottom:1px solid #ddd; margin-bottom:30px; padding-bottom:20px;}
 header time.date-posted {text-transform:uppercase; font-size:1.4em; letter-spacing:.15em; color:#888; line-height:1.3em; margin-bottom:7px;}
