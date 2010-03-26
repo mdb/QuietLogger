@@ -43,3 +43,7 @@ Baskerville is Quiet Logger's primary typeface. For systems on which Baskerville
 the typography will render as Times, Times New Roman, or a generic serif font. 
 
 Quiet Logger does not support widgets.
+
+The design does not account for the use of avatars.
+In the Wordpress administration, navigate to Settings > Discussion,
+tick "Don't show avatars," and "Save changes" to turn off the use of avatars.
