@@ -9,7 +9,7 @@ if (have_posts()) : while (have_posts()) : the_post();
 ?>
 <article class="post" id="post-<?php the_ID(); ?>">
   <header>
-    <time class="date-posted"><?php the_date(); ?></time>
+    <time class="date-posted" datetime="<?php the_time('c'); ?>"><?php the_date(); ?></time>
     <h2 class="post-title"><?php the_title(); ?></h2>
     <?php the_excerpt(); ?>
   </header>
