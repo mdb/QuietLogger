@@ -35,8 +35,8 @@ Notes
 
 Quiet Logger is designed for modern browsers that support HTML5. 
 
-Remy Sharp's HTML5 Shiv provides HTML5 support to versions of Internet Explorer prior
-to IE 9. Read more on Google Code:
+Remy Sharp's HTML5 Shiv provides HTML5 support to Internet Explorer.
+Read more on Google Code:
 http://code.google.com/p/html5shiv/
 
 Baskerville is Quiet Logger's primary typeface. For systems on which Baskerville is not installed,
